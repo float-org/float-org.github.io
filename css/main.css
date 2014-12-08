@@ -1,0 +1,122 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body { 
+	padding:0;
+	margin:0;
+}
+
+#map { 
+    background-image:url(../img/placeholder_no_ap.png);
+    background-size:cover;
+}
+
+h5, a, p, h3 {
+	color: #FFF
+}
+
+h3 { 
+	text-align:center;
+}
+
+
+input[type=email], 
+input[type=submit] {
+	height: 37px;
+	font-size:17px;
+	width:90%;
+	margin:0 auto;
+	display:block;
+}
+
+.callbox { 
+	font: 14px/16px Arial, Helvetica, sans-serif;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	background: #FFF;
+	border-radius: 5px;
+	width: 100%;
+	margin:0 auto;
+	background-color:#6496c8;
+	position:absolute;
+	bottom:0;
+	padding: 20px 15px;
+	box-sizing: border-box
+	-moz-box-sizing: border-box
+}
+
+header {
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#64A7DC', endColorstr='##60A0D8'); /* for IE */
+    background: #56a8ca; /* Old browsers */
+    background: -moz-linear-gradient(top, #56a8ca 46%, #2989d8 100%, #64a7dc 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(46%,#56a8ca), color-stop(100%,#2989d8), color-stop(100%,#64a7dc)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56a8ca 46%,#2989d8 100%,#64a7dc 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56a8ca 46%,#2989d8 100%,#64a7dc 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56a8ca 46%,#2989d8 100%,#64a7dc 100%); /* IE10+ */
+    background: linear-gradient(to bottom, #56a8ca 46%,#2989d8 100%,#64a7dc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56a8ca', endColorstr='#64a7dc',GradientType=0 ); /* IE6-9 */
+    display:block;
+    height:90px;
+    padding: 20px;
+    box-sizing: border-box;
+    width:100%;
+    position:absolute;
+}
+
+header nav {
+    text-align:right;
+    padding-right:20px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+}
+
+header nav a {
+    font-size:22px;
+    font-weight:bold;
+    margin-left:20px;
+}
+
+header nav h5 {
+    margin:0;
+}
+
+header nav a:first-child {
+    margin-left:0;
+}
+
+.logo {
+    color: white;
+    font-weight:bold;
+}
+
+.logo a,
+.logo a:hover, {
+	color:white;
+	text-decoration:none;
+}
+
+.logo h1 {
+    margin:0;
+}
+
+.logo span {
+    font-size:18px;
+}
+
+
+@media (min-width: @screen-sm-min) {
+	.callbox { 
+		bottom:10px;
+		right:10px;
+		max-width:480px;
+	}
+}
+
+
+
+
+
+
