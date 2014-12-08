@@ -103,12 +103,27 @@ header nav a:first-child {
     font-size:18px;
 }
 
+header h2 {
+	font-size: 18px;
+}
+
+header h4 {
+	font-size:15px;
+}
 
 @media (min-width: 768px) {
 	.callbox { 
 		bottom:10px;
 		right:10px;
 		max-width:480px;
+	}
+
+	header h2 {
+		font-size: 22px;
+	}
+
+	header h4 {
+		font-size:18px;
 	}
 }
 
