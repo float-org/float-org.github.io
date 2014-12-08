@@ -78,10 +78,6 @@ header nav {
     -moz-box-sizing:border-box;
 }
 
-header nav h2 {
-    font-size:22px;
-}
-
 header nav h5, header nav h2 {
     margin:0;
 }
