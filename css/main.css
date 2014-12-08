@@ -107,7 +107,7 @@ header nav a:first-child {
 }
 
 
-@media (min-width: @screen-sm-min) {
+@media (min-width: 768px) {
 	.callbox { 
 		bottom:10px;
 		right:10px;
