@@ -15,11 +15,12 @@ body {
     background-size:cover;
 }
 
-h5, a, p, h3 {
-	color: #FFF
+h5, a, p, h3, h2, a:hover {
+	color: #FFF;
+	text-decoration:none;
 }
 
-h3 { 
+.callbox h3 { 
 	text-align:center;
 }
 
@@ -31,6 +32,12 @@ input[type=submit] {
 	width:90%;
 	margin:0 auto;
 	display:block;
+}
+
+input[type=submit] {
+    background-color:#404247;
+    color:#FAEBE2;
+    border:0;
 }
 
 .callbox { 
@@ -50,20 +57,14 @@ input[type=submit] {
 
 header {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#64A7DC', endColorstr='##60A0D8'); /* for IE */
-    background: #56a8ca; /* Old browsers */
-    background: -moz-linear-gradient(top, #56a8ca 46%, #2989d8 100%, #64a7dc 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(46%,#56a8ca), color-stop(100%,#2989d8), color-stop(100%,#64a7dc)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #56a8ca 46%,#2989d8 100%,#64a7dc 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #56a8ca 46%,#2989d8 100%,#64a7dc 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #56a8ca 46%,#2989d8 100%,#64a7dc 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #56a8ca 46%,#2989d8 100%,#64a7dc 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#56a8ca', endColorstr='#64a7dc',GradientType=0 ); /* IE6-9 */
+    background: #6496c8	; /* Old browsers */
     display:block;
     height:90px;
     padding: 20px;
     box-sizing: border-box;
     width:100%;
     position:absolute;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
 }
 
 header nav {
@@ -73,13 +74,11 @@ header nav {
     -moz-box-sizing:border-box;
 }
 
-header nav a {
+header nav h2 {
     font-size:22px;
-    font-weight:bold;
-    margin-left:20px;
 }
 
-header nav h5 {
+header nav h5, header nav h2 {
     margin:0;
 }
 
@@ -90,12 +89,6 @@ header nav a:first-child {
 .logo {
     color: white;
     font-weight:bold;
-}
-
-.logo a,
-.logo a:hover, {
-	color:white;
-	text-decoration:none;
 }
 
 .logo h1 {
